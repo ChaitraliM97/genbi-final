@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light entrance animation for cards */
+.card-enter {
+  animation: cardPop 0.3s ease-out;
+}
+
+@keyframes cardPop {
+  0% { transform: scale(0.98); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
